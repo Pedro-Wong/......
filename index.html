@@ -10,48 +10,85 @@
 </head>
 <body>
     <header>
-        <figure class="logo-header">
+        <!-- <figure class="logo-header">
             <p>imagem</p>
-        </figure>
-        <nav class="nav-header">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a></a></li>
-                <li><a>3</a></li>
-            </ul>    
-        </nav>
-    </header>
-    <main class="container-main">
-        
-        <section id="section1-main">
-            <div style="border: 1px solid black; height: 15%; display: flex;
-            justify-content: center;">
-                <p style="border: 1px solid black;" class="imagem1">img</p>
+        </figure> -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav-header">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
+          </nav>
+    </header>
+    <main class="container-fluid  m-0">
+        
+        <section id="section1-main" class="row">
+            <!-- <div id="img-section1">
+                <p class="imagem1">img</p>
+            </div> -->
             <div>
                 <h1>Sobre mim</h1>
+                
+                <a href="https://www.linkedin.com/in/pedro-azevedo-92646717a/" target="_blank">
+                    
+                    <img src="https://www.4devs.com.br/4devs_gerador_imagem.php?acao=gerar_imagem&txt_largura=200&txt_altura=200&extensao=png&fundo_r=0.06274509803921569&fundo_g=0.996078431372549&fundo_b=0.9568627450980393&texto_r=0&texto_g=0&texto_b=0&texto=Gerador%20Imagem%20%234Devs&tamanho_fonte=8">
+                </a>
+                
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quo molestias? Ex, harum cum sed perspiciatis perferendis architecto doloribus dolorum eius libero aliquam id molestiae commodi consequuntur fugit veniam ratione nostrum! Atque tempora voluptatum ipsum facilis, non impedit sed, dignissimos recusandae aliquam sapiente culpa omnis alias ratione. Perspiciatis, molestiae quo.</p>
                 <button class="btn btn-primary" type="submit">Download CV</button>
-                <button class="btn btn-primary" type="submit"><a href="#" target="_blank">Portfólio</a></button>
-            </div>
-            
+                
+                <button class="btn btn-primary" type="submit"><a href="https://github.com/Pedro-Wong" target="_blank">GitHub</a></button>
+            </div>   
         </section>
 
-        <section class="section2-main">
+        <section id="section2-main" class="row">
             <h1>Exemplo 2</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quisquam, facere, sint ad nostrum voluptatibus modi repellat labore omnis nisi at alias animi! Impedit voluptas labore ab accusamus fugiat praesentium molestias nisi aut. Molestiae, minus incidunt rem perspiciatis similique quasi error amet corporis. Exercitationem ratione quas doloremque molestiae, facilis impedit magnam dolor eum praesentium, reprehenderit voluptate, distinctio facere provident odit expedita dolores! Debitis natus magnam quaerat voluptatibus sed incidunt itaque tempore fugiat tempora nesciunt, quasi error tenetur eligendi aliquid accusantium molestias quisquam necessitatibus non. Eius repellat facere, nam nemo sint expedita veritatis, magnam a reiciendis eaque minima voluptates? Dolor, officia?</p>
         </section>
-        <section class="section3-main">
-            <h1>Portfolio</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ex vero esse adipisci molestias tempore blanditiis, aliquam aspernatur eaque soluta sit sint. Similique ipsum sunt odio, blanditiis facere natus consectetur repellat eum voluptatum nostrum nihil tempore alias sequi eligendi molestiae commodi laborum sapiente debitis. Praesentium, officiis maiores ullam voluptate consequatur doloribus porro sapiente id obcaecati aliquid incidunt fugiat facilis minus, aliquam officia exercitationem hic cum repudiandae enim quos tempore ex corporis. Aspernatur at debitis libero dicta est illo labore ducimus facere minima corrupti sunt magni, exercitationem laboriosam consectetur quidem nesciunt accusantium aliquam reiciendis? Eum illum natus possimus magni soluta eaque.</p>
+        <section id="section3-main" class="row">
+            <h1>Projetos</h1>
+            <a href="https://github.com/Pedro-Wong/data-structure-java" target="_blank" class="col-sm-6 pb-1"><img src="https://www.4devs.com.br/4devs_gerador_imagem.php?acao=gerar_imagem&txt_largura=100&txt_altura=100&extensao=png&fundo_r=0.06274509803921569&fundo_g=0.996078431372549&fundo_b=0.49637140012254904&texto_r=0&texto_g=0&texto_b=0&texto=Gerador%20Imagem%20%234Devs&tamanho_fonte=10" class="img-fluid"></a>
+            <a href="https://github.com/Pedro-Wong/data-structure-java" target="_blank" class="col-sm-6 pb-1"><img src="https://www.4devs.com.br/4devs_gerador_imagem.php?acao=gerar_imagem&txt_largura=100&txt_altura=100&extensao=png&fundo_r=0.06274509803921569&fundo_g=0.996078431372549&fundo_b=0.49637140012254904&texto_r=0&texto_g=0&texto_b=0&texto=Gerador%20Imagem%20%234Devs&tamanho_fonte=10"></a>
+            <a href="https://github.com/Pedro-Wong/data-structure-java" target="_blank" class="col-sm-6 pb-1"><img src="https://www.4devs.com.br/4devs_gerador_imagem.php?acao=gerar_imagem&txt_largura=100&txt_altura=100&extensao=png&fundo_r=0.06274509803921569&fundo_g=0.996078431372549&fundo_b=0.49637140012254904&texto_r=0&texto_g=0&texto_b=0&texto=Gerador%20Imagem%20%234Devs&tamanho_fonte=10"></a>
+            <a href="https://github.com/Pedro-Wong/data-structure-java" target="_blank" class="col-sm-6 pb-1"><img src="https://www.4devs.com.br/4devs_gerador_imagem.php?acao=gerar_imagem&txt_largura=100&txt_altura=100&extensao=png&fundo_r=0.06274509803921569&fundo_g=0.996078431372549&fundo_b=0.49637140012254904&texto_r=0&texto_g=0&texto_b=0&texto=Gerador%20Imagem%20%234Devs&tamanho_fonte=10"></a>
+        
+        
+        
+        
         </section>
-        <section class="section4-main">
-            <h1>Exemplo 4</h1>
+        <section id="section4-main" class="row">
+            <h1>Contato</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quasi iure repellat doloribus necessitatibus molestias nostrum! Quasi inventore, laborum placeat facere quae doloremque iure voluptatum iste error explicabo debitis quam, officiis hic quaerat. Earum cumque placeat labore est eos quaerat quia tenetur sapiente illum harum quae consequuntur vero ullam nobis ex ad accusamus temporibus cum exercitationem incidunt, voluptatibus deserunt soluta dolore sequi? Rem, doloribus magnam vitae at eligendi consequuntur eaque ea cum quae reiciendis aliquam, natus impedit, soluta explicabo mollitia?</p>
         </section>
-        <section class="section5-main">
+        <section id="section5-main" class="row">
             <h1>Exemplo 5</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia quos laborum voluptate pariatur, fuga ratione illum amet enim, ea sit. Repudiandae dignissimos soluta suscipit culpa veritatis blanditiis officiis iste facere maiores! Sit doloremque alias labore officiis vel. Unde tempora obcaecati enim expedita tempore cupiditate eaque maiores sequi perferendis aut iste impedit, eius corporis itaque minima est illo. Nobis in a est reiciendis nostrum. Repellat recusandae quibusdam aliquam quidem velit ea id animi, quis facere impedit sunt temporibus eligendi, consequuntur, dolor dolore. Quis et iusto sed animi asperiores? Ea vel itaque blanditiis recusandae quas a sit officia consequuntur veniam mollitia.</p>
         </section>
@@ -61,8 +98,14 @@
 
 
     </main>
-    <footer>
-        <p>rodape</p>
+    <footer class="container-fluid ">
+        <div class="navbar navbar-expand-lg bg-body-tertiary p-0">
+            <div class="container-fluid" >
+              <p>Rodape</p>
+            </div>
+        </div>
     </footer>
+    <!-- Caminho para linkar o arquivo bundle  -->
+    <script src="/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

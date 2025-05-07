@@ -2,15 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans';
 }
 
-a:visited{
-    color: white
-}
 
-a{
-    text-decoration: none;
-}
 
 /* HEADER */
 
@@ -19,25 +14,17 @@ header{
     height: 15%;
     border: 3px solid green;
 }
-.logo-header{
-    grid-area: logo;
-}
+
 .nav-header{
-    grid-area: menu1;
-}
-
-nav ul li{
-    list-style: none;
-}
-
-.logo-header{
-    border: 1px solid black;
+    width: 100%;
     
 }
+
 
 /* MAIN */
 main{
     height: 70%;
+    width: 100%;
     border: 3px solid orangered;
     /* display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -56,16 +43,18 @@ main{
 
 main section{
     border: 1px solid blue;
+    /* margin: 5px 0; */
 }
 
-.imagem1{
-    background-color: grey;
-    height: 100%;
-    width: 60%;
+#img-section1{
+    border: 1px solid black;
+    
 }
 
 
-
+/* #section3-main a{
+    text-align: center;
+} */
 
 
 
@@ -77,13 +66,8 @@ main section{
 
 
 /* FOOTER */
-
 footer{
-    height: 15%;
-    width: 100vw;
     border: 3px solid pink;
-  
-    background-color: black;
 }
 
 /* media queries */
